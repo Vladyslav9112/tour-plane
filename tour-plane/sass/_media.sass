@@ -1,0 +1,77 @@
+@media (max-width: 1200px)
+  .container
+    max-width: 960px
+  .slider
+    width: 590px
+  .swiper-slide img
+    height: 100%
+
+@media (max-width: 992px)
+  .container
+    max-width: 700px
+  .navbar
+    &-logo
+      width: 133px
+      height: 18px
+    &-search
+      margin-left: auto
+    &-top
+      padding-top: 30px
+      padding-bottom: 30px
+    &-menu
+      padding-top: 22px
+      padding-bottom: 22px
+      &__link
+        font-size: 12px
+        line-height: 15px
+  .search
+    &__input
+      max-width: 340px
+@media (max-width: 768px)
+  .conteiner
+    max-width: 576px
+    width: 92%
+  .navbar
+    &__search, &-menu, &__user
+      display: none
+  .menu
+    &-button
+      width: 16px
+      height: 11px
+      padding: 0
+      border: none
+      display: flex
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+      background-color: #fff
+      cursor: pointer
+      &__line
+        width: 16px
+        height: 1px
+        background-color: $text-color
+  .hotel
+    &-info
+      &__stars
+
+      &__name
+        margin-top: 10px
+        margin-bottom: 0
+      &__text
+        width: 100%
+      &__rating
+        display: none
+      &__offer
+        order: -1
+
+    &-name
+      flex-basis: 100%
+    &-wrapper
+      justify-content: space-between
+
+      &__stars
+        flex-basis: content
+        max-width: 60px
+@media ( max-width: 576px  )
+  .logo
+    width: 99px

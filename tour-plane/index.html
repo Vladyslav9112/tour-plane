@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="/css/style.css/style.css">
+  <title>Hotel Booking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-top">
+       <img src="img/navbar-logo.svg" alt="Logo: Best Tour Plan" class="navbar-logo">
+       
+       <from class="search navbar-search navbar__search">
+         <input type="text" class="search-input" placeholder="Search Location">
+         <button class="search-button">
+           <img src="img/search.svg" alt="Icon: search">
+         </button>
+       </from>
+        <a class="user navbar__user">
+          <img src="img/avatar-navbar.jpeg" alt="Avatar: Nathan" class="user__avatar">
+          <span class="user__name">Nathan</span>
+        </a>
+        <!-- User -->
+        <button class="menu-button navbar-top__menu-button">
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+        </button>
+      </div>
+     <!-- Конец шапки-сверху -->
+    </div>
+  <!-- Конец шапки-контейнера -->
+  <div class="navbar-menu_background--color">
+    <div class="container">
+      <ul class="navbar-menu">
+        <li class="navbar-menu__item"><a href="#" class="navbar-menu__link navbar__text">ALL DEALS</a></li>
+        <li class="navbar-menu__item"><a href="#" class="navbar-menu__link navbar__text">HOTELS</a></li>
+        <li class="navbar-menu__item"><a href="#" class="navbar-menu__link navbar__text">ACTIVITIES</a></li>
+        <li class="navbar-menu__item"><a href="#" class="navbar-menu__link navbar__text">HOTEL DAY PACKAGES</a></li>
+        <li class="navbar-menu__item"><a href="#" class="navbar-menu__link navbar__text">RESTAURANTS</a></li>
+        <li class="navbar-menu__item"><a href="#" class="navbar-menu__link navbar__text">EVENTS</a></li>
+        <li class="navbar-menu__item"><a href="#" class="navbar-menu__link navbar__text">RODRIGUES</a></li>
+      </ul>
+    </div>  
+  </div>
+  </header>
+<nav class="breadcrumb">
+  <div class="container">
+    <ul class="breadcrumb-list">
+     <li class="breadcrumb-list__item">
+       <a href="#" class="breadcrumb-list__link">Home</a>
+     </li>
+     <li class="breadcrumb-list__item">
+       <a href="#" class="breadcrumb-list__link">Flash Offers</a>
+     </li>
+     <li class="breadcrumb-list__item">
+       Grand Hilton Hotel
+     </li>
+    </ul>
+ </div>
+</nav>
+<!-- Breadcrumb -->
+<section class="hotel">
+  <div class="container">
+   <div class="hotel-info">
+     <div class="hotel-info__text">
+       <div class="hotel-wrapper">
+          <div class="hotel-wrapper__stars">
+            <img src="img/Star.svg" alt="Star">
+            <img src="img/Star.svg" alt="Star">
+            <img src="img/Star.svg" alt="Star">
+            <img src="img/Star.svg" alt="Star">
+            <img src="img/Star.svg" alt="Star">
+          
+          </div>
+          <h1 class="hotel-name hotel-info__name">GRAND HILTON HOTEL</h1>
+          <span class="offer hotel-info__offer">Flash Offer</span>
+       </div>
+      <p class="hotel-info__discription">
+        Half-Board/ All Inclusive + Complimentary Activites + Child Stays Free
+      </p>
+     </div>
+     <!-- Лєвий блок інформації -->
+     <div class="rating hotel-info__rating">
+       <span class="rating__text">User Rattings</span>
+       <span class="rating__counter">4.5/5</span>
+     </div>
+     <!-- Правий блок інформації -->
+   </div>
+  <div class="hotel-grid">
+    <div class="slider">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide swiper-slide__img"><img src="img/slide.jpg" alt="Slide"></div>
+          <div class="swiper-slide swiper-slide__img"><img src="img/slide.jpg" alt="Slide"></div>
+          <div class="swiper-slide swiper-slide__img"><img src="img/slide.jpg" alt="Slide"></div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="slider-button slider-button--prev"></div>
+        <div class="slider-button slider-button--next"></div>
+      </div>
+    </div>
+    <!-- Слайдер закінчився -->
+    <div class="hotel-right-site">
+      <div class="booking">
+        <div class="booking__info">
+          <div class="booking__price">
+           <span class="booking__start">price starts as</span>
+           <strong class="booking__pricetag">$ 8,500</strong>
+           <span class="booking__per-room">per room / night</span>
+          </div>
+          <!-- Booking Price -->
+          <div class="booking__preson-room">
+            <div class="booking__text">
+              <img src="img/guests.svg" alt="Icon: User" class="person-room__icon">
+              <span class="booking__description">2 x Guests</span>
+            </div>
+            <div class="booking__text">
+              <img src="img/room.svg" alt="Icon: Room" class="person-room__icon">
+              <span class="booking__description">1 x Room</span>
+            </div>
+          </div>
+        </div>
+        <div class="booking__call-center">
+          <span class="booking__header">Quick Booking</span>
+          <a href="tel:12100" class="booking__number">
+            <img src="img/phone-call.svg" alt="Icon: phone">
+            <span class="booking__num">12100</span>
+          </a>
+        </div>
+        <!-- Booking call-centre -->
+        <button class="booking__button">View Other Options</button>
+        
+     </div>
+     <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57421611.48119567!2d-56.98725749999999!3d28.54762296392823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d168928c4e72ca9!2sHilton%20Garden%20Inn%20Chicago%20Downtown%2FMagnificent%20Mile!5e0!3m2!1suk!2sua!4v1631822319951!5m2!1suk!2sua"
+        width="347" height="213" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy"></iframe>
+     </div>
+     <!-- Закінчився свайпер -->
+    </div>
+   
+  </div>
+  <!-- Контейнер -->
+</section>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
